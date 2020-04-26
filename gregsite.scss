@@ -1,0 +1,19 @@
+$thatlightbluecolor: #c9fff3;
+$properwidth: 20%;
+
+.gregtitle, a{
+  color: $thatlightbluecolor;
+}
+ul{
+  background-color:$thatlightbluecolor;
+  li{
+    width:$properwidth;
+  }
+.message{
+  border: 1px solid black;
+  color:orange;
+}
+.alert{
+  @extend .message
+  background-color:yellow;
+}

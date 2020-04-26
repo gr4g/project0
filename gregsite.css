@@ -1,0 +1,84 @@
+.gregtitle{
+  font-family:arial;
+  text-align:center;
+  margin:20px
+}
+button{
+  width:80px;
+  height:35px;
+  border-radius:3px;
+  font-size:20px;
+  font-family:arial;
+  background-color:#c9fff3;
+  margin-top:10px:
+  margin-bottom:10px;
+}
+button:hover{
+  background-color:#8fffe7;
+  border-radius:7px;
+}
+a{
+  text-decoration:none;
+}
+.secondheading{
+  font-family:arial;
+  background-color:#c9fff3;
+  margin:20px;
+}
+.largeparagraph{
+  font-size:20px;
+  font-family:arial;
+  font-weight:normal;
+}
+.links{
+  color:#8fffe7;
+}
+.paragraph{
+  margin-left:250px;
+  margin-right:250px;
+  background-color:lightgray;
+  border-radius:10px;
+}
+.stonks{
+border-radius:30%;
+}
+ul{
+  text-align:center;
+  list-style:inside;
+}
+table, th, td{
+  text-align:center;
+  border:1px solid black;
+  border-collapse:collapse;
+}
+.profit{
+  color:lime;
+}
+.loss{
+  color:red;
+}
+#main{
+color:gray;
+}
+@media only screen and (max-width: 910px) {
+  body {
+    background-color: lime;
+}
+}
+#hd{
+  background-color:orange;
+  color:white;
+  padding:20px;
+}
+#jnj{
+  background-color:red;
+  color:white;
+  padding:20px;
+  padding-bottom:243px;
+}
+#lw{
+  background-color:blue;
+  color:blue;
+  padding:20px;
+  padding-bottom:141px;
+}
